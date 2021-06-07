@@ -339,7 +339,7 @@ Defaults to the value `tshell-out-buffer'"
 (defun tshell-yank ()
   "Yank contents of the output buffer at point."
   (interactive)
-  (insert-buffer tshell-out-buffer))
+  (insert-buffer-substring-as-yank tshell-out-buffer))
 
 (provide 'tshell)
 
