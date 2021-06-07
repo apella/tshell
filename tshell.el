@@ -39,10 +39,12 @@
   :type 'string :group 'tshell)
 
 (defcustom tshell-elisp-prompt ">"
-  "Emacs Lisp prompt.")
+  "Emacs Lisp prompt."
+  :type 'string)
 
 (defcustom tshell-internal-prompt ":"
-  "Internal prompt.")
+  "Internal prompt."
+  :type 'string)
 
 ;;; Vars
 
